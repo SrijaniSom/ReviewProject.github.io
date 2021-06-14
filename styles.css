@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+html
+{
+    background-color: #f2f2f2;
+    font-family: 'Nunito', sans-serif;
+}
+body
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading
+    {
+        margin-top: 100px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 45px;
+        padding: 3px;
+    }
+.underline
+    {
+        width:150px;
+        height:6px;
+        background-color: #33ccff;
+        margin-top: 10px;
+    }
+.mainsec
+{
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: rgb(167, 161, 161) 1rem 1rem 1rem;
+    align-items: center;
+    margin-top: 80px;
+    width:500px;
+    height:80%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   min-width: 40%;
+}
+.image
+    {
+        width:158px;
+        height: 158px;
+        border-radius: 50%;
+         background-color:#33ccff ;
+         margin-top: 30px;
+    }
+.image img
+    {
+        width:150px;
+        height: 150px;
+        border-radius: 50%;
+        text-align: center;
+        align-items: center;
+        
+        
+    }
+    .name
+        {
+            letter-spacing: 2px;
+            font-weight:bolder;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    .post
+        {
+            font-size: 15px;
+            color: #33ccff;
+            margin-top: 7px;
+        }
+    .info
+        {
+            color:#85adad;
+            padding:2px;
+            margin-top:10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            text-align: center;
+        }
+    .button-container
+    {
+        display: flex;
+        margin-top: 8px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding-right:10px;
+    }
+.prev-btn,.next-btn
+    {
+        
+        background-color: white;
+        border-color: transparent;
+        box-shadow: transparent;
+        color:#33ccff ;
+        margin-bottom: 8px;
+        size: 10px;
+     }
+     .prev-btn{
+        margin-right:30px;
+     }
+     .prev-btn,.next-btn:hover
+     {
+        
+         color:#05add7 ;
+         cursor: pointer;
+      }       
+.surprise
+{
+    background-color:#bdeffc ;
+    padding:3px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    border-radius: 8px;
+    border:#05add7 solid 3px;
+    margin-bottom: 15px;
+    color:#127892;
+
+}
+.surprise:hover
+    {
+        cursor: pointer;
+        background-color:#2cbfe4 ;
+    }
